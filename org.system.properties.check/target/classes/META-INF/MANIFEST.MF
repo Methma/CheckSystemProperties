@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.system.properties.check
+Built-By: methma
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1528456057519
+Import-Package: org.apache.commons.logging;version="[1.2,2)",org.osgi.
+ framework;version="[1.5,2)"
+Tool: Bnd-1.43.0
+Export-Package: org.system.properties.check;uses:="org.apache.commons.
+ logging";version="1.0.0"
+Bundle-Version: 1.0.0
+Bundle-Name: org.system.properties.check
+Bundle-Activator: org.system.properties.check.internal.Activator
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_131
+
